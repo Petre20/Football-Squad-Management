@@ -27,7 +27,7 @@ Aplicatie desktop folosita pentru managementul unei echipa de fotbal, folosita d
 
 ### Baza de date
 
-Tabela players:
+Tabela players:  
 id (PK, INT, AUTO)  
 first_name (VARCHAR)  
 last_name (VARCHAR)  
@@ -35,40 +35,40 @@ number (INT)
 position (VARCHAR)  
 birth_date (DATE)  
 
-Tabela matches:
-id (PK)
-match_date (DATE)
-opponent (VARCHAR)
-location (VARCHAR)
-home_goals (INT)
-away_goals (INT)
+Tabela matches:  
+id (PK)  
+match_date (DATE)  
+opponent (VARCHAR)  
+location (VARCHAR)  
+home_goals (INT)  
+away_goals (INT)  
 
-Tabela player_statistics:
-id (PK)
-player_id (FK -> players.id)
-match_id (FK -> matches.id)
-goals (INT)
-assists (INT)
-minutes_played (INT)
-yellow_cards (INT)
-red_cards (INT)
+Tabela player_statistics:  
+id (PK)  
+player_id (FK -> players.id)  
+match_id (FK -> matches.id)  
+goals (INT)  
+assists (INT)  
+minutes_played (INT)  
+yellow_cards (INT)  
+red_cards (INT)  
 
-Tabela training_sessions:
-id (PK)
-session_date (DATE)
-description (TEXT)
+Tabela training_sessions:  
+id (PK)  
+session_date (DATE)  
+description (TEXT)  
 
-Tabela attendance:
-id (PK)
-session_id (FK -> training_sessions.id)
-player_id (FK -> players.id)
-present (BOOLEAN)
+Tabela attendance:  
+id (PK)  
+session_id (FK -> training_sessions.id)  
+player_id (FK -> players.id)  
+present (BOOLEAN)  
 
-Relatii:
-players (1) — (N) player_statistics
-matches (1) — (N) player_statistics
-training_sessions (1) — (N) attendance
-players (1) — (N) attendance
+Relatii:  
+players (1) — (N) player_statistics  
+matches (1) — (N) player_statistics  
+training_sessions (1) — (N) attendance  
+players (1) — (N) attendance  
 
 ## Functionalitati/Exemple utilizare
 Lorem ipsum
