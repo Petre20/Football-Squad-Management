@@ -26,7 +26,8 @@ Aplicatie desktop folosita pentru managementul unei echipa de fotbal, folosita d
 ![Alt text](documentatie-ghid-utlizare-raport/chart-clase.png)
 
 ### Baza de date
-Tabela: players
+
+Tabela players:
 id (PK, INT, AUTO)
 first_name (VARCHAR)
 last_name (VARCHAR)
@@ -34,7 +35,7 @@ number (INT)
 position (VARCHAR)
 birth_date (DATE)
 
-Tabela: matches
+Tabela matches:
 id (PK)
 match_date (DATE)
 opponent (VARCHAR)
@@ -42,7 +43,7 @@ location (VARCHAR)
 home_goals (INT)
 away_goals (INT)
 
-Tabela: player_statistics
+Tabela player_statistics:
 id (PK)
 player_id (FK -> players.id)
 match_id (FK -> matches.id)
@@ -52,12 +53,12 @@ minutes_played (INT)
 yellow_cards (INT)
 red_cards (INT)
 
-Tabela: training_sessions
+Tabela training_sessions:
 id (PK)
 session_date (DATE)
 description (TEXT)
 
-Tabela: attendance
+Tabela attendance:
 id (PK)
 session_id (FK -> training_sessions.id)
 player_id (FK -> players.id)
