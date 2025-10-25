@@ -70,8 +70,12 @@ matches (1) — (N) player_statistics
 training_sessions (1) — (N) attendance  
 players (1) — (N) attendance  
 
-## Functionalitati/Exemple utilizare
-Lorem ipsum
+## Use cases
+- Gestionarea jucatorilor - antrenorul poate adauga/edita/sterge jucatori  
+- Planificarea unui meci - antrenorul poate programa un meci: adversar, data/ora, locatie  
+- Inregistrarea unui rezultat - antrenorul introduce scorul si statisticile jucatorilor dupa meci
+- Antrenament - antrenorul poate organiza o sesiune de antrenament si marcheaza prezenta (+ randamentul jucatorilor eventual)
+- Vizualizare rapoarte si statistici - antrenorul poate genera rapoarte (top golgheteri, top marcatori decisivi, prezenta la antrenament)
 
 ### Resurse
 Markdown Guide, [Online] Available: https://www.markdownguide.org/basic-syntax/ [accesed: Mar 14, 1706]
