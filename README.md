@@ -22,10 +22,10 @@ Aplicatie desktop folosita pentru managementul unei echipa de fotbal, folosita d
 * Vizualizari grafice: grafice de evolutie pentru goluri/minute
 
 ## Arhitectura
-###Clase
+### Clase
 ![Alt text](documentatie-ghid-utlizare-raport/chart-clase.png)
 
-###Baza de date
+### Baza de date
 Tabela: players
 id (PK, INT, AUTO)
 first_name (VARCHAR)
