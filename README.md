@@ -28,12 +28,12 @@ Aplicatie desktop folosita pentru managementul unei echipa de fotbal, folosita d
 ### Baza de date
 
 Tabela players:
-id (PK, INT, AUTO)
-first_name (VARCHAR)
-last_name (VARCHAR)
-number (INT)
-position (VARCHAR)
-birth_date (DATE)
+id (PK, INT, AUTO)  
+first_name (VARCHAR)  
+last_name (VARCHAR)  
+number (INT)  
+position (VARCHAR)  
+birth_date (DATE)  
 
 Tabela matches:
 id (PK)
