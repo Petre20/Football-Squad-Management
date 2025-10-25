@@ -81,7 +81,7 @@ players (1) — (N) attendance
 - Dashboard principal: lotul de jucatori, meciuri viitoare, etc.
 - Players view: lista jucatori + modificari: adaugare jucator, stergere jucator, editare jucator (ex: accidentare, schimbarea pozitiei din teren)
 - Matches view: lista meciuri + butoane: adauga meci, editeaza meciul, inregistrare rezultat; form pentru introducarea scorului si a statisticilor jucatorilor
-- Training sessions view: creearea unei sesiuni de antrenament, marcarea prezentei (posibil un tabel cu checkbox-uri)
+- Training sessions view: crearea unei sesiuni de antrenament, marcarea prezentei (posibil un tabel cu checkbox-uri)
 - Reports view: generare top golgheteri, procent prezenta la antrenament, evolutia posesiei pe parcurusul fiecarui meci, etc. 
 
 ### Resurse
