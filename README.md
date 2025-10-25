@@ -22,9 +22,7 @@ Aplicatie desktop folosita pentru managementul unei echipa de fotbal, folosita d
 * Vizualizari grafice: grafice de evolutie pentru goluri/minute
 
 ## Arhitectura
-Lorem ipsum ...
-
-![Alt text](documentatie-ghid-utlizare-raport/diagrama-clase.png)
+![Alt text](documentatie-ghid-utlizare-raport/chart-clase.png)
 
 Lorem ipsum ...
 
