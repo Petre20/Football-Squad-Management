@@ -9,7 +9,7 @@ Aplicatie desktop folosita pentru managementul unei echipa de fotbal, folosita d
 * gestionarea prezentei la antrenamente
 * generare rapoarte si grafice pentru analiza
 
-## Lisa principalelor functionalitati
+## Lista principalelor functionalitati
 * Gestionare jucatori: adaugare, stergere, editare, listare
 * Gestionare meciuri: creare meci, editare, introducere scor
 * Inregistrare statistici jucatori pentru fiecare meci
