@@ -77,5 +77,12 @@ players (1) — (N) attendance
 - Antrenament - antrenorul poate organiza o sesiune de antrenament si marcheaza prezenta (+ randamentul jucatorilor eventual)
 - Vizualizare rapoarte si statistici - antrenorul poate genera rapoarte (top golgheteri, top marcatori decisivi, prezenta la antrenament)
 
+## Ecranele aplicatiei
+- Dashboard principal: lotul de jucatori, meciuri viitoare, etc.
+- Players view: lista jucatori + modificari: adaugare jucator, stergere jucator, editare jucator (ex: accidentare, schimbarea pozitiei din teren)
+- Matches view: lista meciuri + butoane: adauga meci, editeaza meciul, inregistrare rezultat; form pentru introducarea scorului si a statisticilor jucatorilor
+- Training sessions view: creearea unei sesiuni de antrenament, marcarea prezentei (posibil un tabel cu checkbox-uri)
+- Reports view: generare top golgheteri, procent prezenta la antrenament, evolutia posesiei pe parcurusul fiecarui meci, etc. 
+
 ### Resurse
 Markdown Guide, [Online] Available: https://www.markdownguide.org/basic-syntax/ [accesed: Mar 14, 1706]
