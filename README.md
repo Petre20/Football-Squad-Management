@@ -1,3 +1,5 @@
+# GMihai: Nota descriere proiect 10
+
 # Management echipa de fotbal
 ### Lupu Eugen-Petrișor
 
