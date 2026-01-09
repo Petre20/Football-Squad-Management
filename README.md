@@ -34,18 +34,26 @@ Acesta este tabelul de bază care stochează informațiile personale ale membril
 
 id (INT, Primary Key, Auto Increment): Cod unic de identificare pentru fiecare jucător.
 first_name (VARCHAR): Prenumele jucătorului.
+
 last_name (VARCHAR): Numele de familie.
+
 position (VARCHAR): Postul pe care joacă (ex: "Portar", "Atacant Central").
+
 number (INT): Numărul de pe tricou (trebuie să fie unic).
 
 2. Tabelul matches (Meciuri)
 Stochează calendarul și rezultatele generale ale partidelor, fără detalii despre cine a jucat.
 
 id (INT, Primary Key, Auto Increment): Cod unic al meciului.
+
 opponent (VARCHAR): Numele echipei adverse.
+
 match_date (VARCHAR): Data meciului (format text "zi.luna.an").
+
 location (VARCHAR): Locația ("Acasa" sau "Deplasare").
+
 scored (INT): Golurile marcate de echipa noastră.
+
 received (INT): Golurile primite de la adversari.
 
 3. Tabelul match_stats (Statistici Meci)
@@ -53,33 +61,51 @@ Acesta este un tabel de legătură (Many-to-Many) între Jucători și Meciuri. 
 
 id (INT, Primary Key): Cod unic al înregistrării.
 match_id (INT, Foreign Key): Leagă statistica de un meci din tabelul matches.
+
 player_id (INT, Foreign Key): Leagă statistica de un jucător din tabelul players.
+
 goals (INT): Numărul de goluri marcate de acel jucător în acel meci.
+
 shots_on_target (INT): Șuturi pe spațiul porții.
+
 total_shots (INT): Total șuturi (pe poartă + pe lângă).
+
 passes_completed (INT): Pase reușite.
+
 passes_total (INT): Total pase încercate.
+
 dribbles_completed (INT): Driblinguri reușite.
+
 distance_km (DOUBLE): Distanța alergată (permite zecimale, ex: 10.5 km).
+
 saves (INT): Intervenții salvatoare (specific pentru portari).
+
 tackles (INT): Deposedări (specific pentru apărători).
 
 4. Tabelul trainings (Antrenamente)
 Stochează sesiunile de pregătire planificate.
 
 id (INT, Primary Key): Cod unic al antrenamentului.
+
 training_date (VARCHAR): Data antrenamentului.
+
 type (VARCHAR): Tipul (ex: "Fizic", "Tactic", "Recuperare").
+
 duration (INT): Durata în minute.
+
 description (VARCHAR): Descriere opțională sau notele antrenorului.
 
 5. Tabelul training_attendance (Prezență Antrenament)
 Acesta este un alt tabel de legătură între Jucători și Antrenamente.
 
 id (INT, Primary Key): Cod unic.
+
 training_id (INT, Foreign Key): Leagă prezența de un antrenament specific.
+
 player_id (INT, Foreign Key): Leagă prezența de un jucător anume.
+
 status (VARCHAR): Starea jucătorului ("Prezent", "Absent", "Invoit", "Accidentat").
+
 rating (INT): Nota acordată de antrenor pentru efortul depus (1-10).
 
 Relatii:  
